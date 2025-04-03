@@ -18,8 +18,8 @@ const App = () => {
   const darkk = () => {
     setDark(!dark);
   };
-
-  return (
+ 
+  return ( 
     <div className={dark ? "bg-[#091732] font-mono box-border min-h-[100vh] py-1   text-white duration-500 " : " bg-slate-400 font-mono text-[#091732]  duration-500  p-2"}>
       <div className={dark ? "w-[95%] mx-auto" : "w-[96%]  mx-auto"}>
         <Navbar dark={dark} trueBox={trueBox} setTrueBox={setTrueBox} burger={burger} setBurger={setBurger} handle={handle} darkk={darkk} setDark={setDark} />
