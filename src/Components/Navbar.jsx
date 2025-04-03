@@ -163,7 +163,7 @@ const Navbar = ({ dark, trueBox, handle, darkk, burger, setBurger }) => {
                 ) : (
                   <button className="bg-[#0a0c358a] duration-500 rounded-full p-1" onClick={darkk}>
                     <CiDark />
-                  </button>
+                  </button> 
                 )}
               </div>
             </ul>
