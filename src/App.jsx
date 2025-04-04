@@ -14,7 +14,7 @@ const App = () => {
   const handle = () => {
     setBurger(false);
     setTrueBox(true);
-  };
+  }
   const darkk = () => {
     setDark(!dark); 
   };
