@@ -16,7 +16,7 @@ const App = () => {
     setTrueBox(true);
   };
   const darkk = () => {
-    setDark(!dark);
+    setDark(!dark); 
   };
  
   return ( 
